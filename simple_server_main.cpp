@@ -10,6 +10,7 @@ int main ( int argc, int argv[] ){
 
 	try{
 		// Create the socket
+		// on port 30000
 		ServerSocket server ( 30000 );
 
 		while ( true ){
